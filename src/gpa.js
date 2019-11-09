@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
-const letterGrade = (readlineSync.question("\nEnter a letter grade: "));
-letterGrade = letterGrade.toUpperCase();
+const userLetterGrade = (readlineSync.question("\nEnter a letter grade: "));
+letterGrade = userLetterGrade.toUpperCase();
 
 switch (letterGrade){
    case "A+":
