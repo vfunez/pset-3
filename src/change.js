@@ -24,5 +24,5 @@ if (Number.isNaN(amount)) {
   let nickels = Math.floor(pennies / NICKEL_VALUE);
   pennies = pennies % NICKEL_VALUE;
 
-  console.log("\n" + quarters + " quarters, " + dimes + " dimes, " + nickels + " nickels, " + pennies + " pennies.");
+  console.log("\n" + quarters + " quarters, " + dimes + " dimes, " + nickels + " nickels, " + pennies + " pennies.\n");
 }
